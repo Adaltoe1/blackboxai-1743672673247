@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Virtual Printer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <header class="bg-white shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600">
+                <i class="fas fa-print mr-2"></i>PDF Virtual Printer
+            </h1>
+            <nav class="flex space-x-4">
+                <a href="/" class="text-blue-600 hover:text-blue-800 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                <a href="/convert" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Convert</a>
+                <a href="/dashboard" class="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Dashboard</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 py-8 sm:px-6 lg:px-8">
+        <div class="bg-white overflow-hidden shadow rounded-lg">
+            <div class="px-4 py-5 sm:p-6">
+                <div class="text-center">
+                    <h2 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">
+                        Your Virtual PDF Printer
+                    </h2>
+                    <p class="mt-3 max-w-2xl mx-auto text-xl text-gray-500">
+                        Convert web pages, text, and documents to PDF with ease
+                    </p>
+                    <div class="mt-8 flex justify-center">
+                        <div class="inline-flex rounded-md shadow">
+                            <a href="/convert" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700">
+                                <i class="fas fa-file-pdf mr-2"></i> Start Printing
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="bg-white overflow-hidden shadow rounded-lg">
+                <div class="px-4 py-5 sm:p-6">
+                    <div class="flex items-center">
+                        <div class="flex-shrink-0 bg-blue-500 rounded-md p-3">
+                            <i class="fas fa-globe text-white text-xl"></i>
+                        </div>
+                        <div class="ml-5 w-0 flex-1">
+                            <h3 class="text-lg font-medium text-gray-900">Web to PDF</h3>
+                            <p class="mt-1 text-sm text-gray-500">
+                                Convert any webpage to PDF with one click
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white overflow-hidden shadow rounded-lg">
+                <div class="px-4 py-5 sm:p-6">
+                    <div class="flex items-center">
+                        <div class="flex-shrink-0 bg-green-500 rounded-md p-3">
+                            <i class="fas fa-file-word text-white text-xl"></i>
+                        </div>
+                        <div class="ml-5 w-0 flex-1">
+                            <h3 class="text-lg font-medium text-gray-900">Document Conversion</h3>
+                            <p class="mt-1 text-sm text-gray-500">
+                                Convert Word, Text and other documents to PDF
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white overflow-hidden shadow rounded-lg">
+                <div class="px-4 py-5 sm:p-6">
+                    <div class="flex items-center">
+                        <div class="flex-shrink-0 bg-purple-500 rounded-md p-3">
+                            <i class="fas fa-database text-white text-xl"></i>
+                        </div>
+                        <div class="ml-5 w-0 flex-1">
+                            <h3 class="text-lg font-medium text-gray-900">Data Extraction</h3>
+                            <p class="mt-1 text-sm text-gray-500">
+                                Extract text and metadata from your PDFs
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-white mt-12 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+            <p class="text-center text-base text-gray-500">
+                &copy; 2023 PDF Virtual Printer. All rights reserved.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
